@@ -31,13 +31,10 @@ function Header() {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/dashboard">Dashboard</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/users">Users</Link>
-                                </li>
                             </ul>
                             <ul style={{marginLeft: "auto"}} className='navbar-nav'>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/users">{user ? user.name : "John Doe"}</Link>
+                                    <b><i>{user ? user.name : "John Doe"}</i></b>
                                 </li>
                                 <li className="nav-item">
                                     <a href='/' onClick={onLogout} className='btn btn-danger'>Logout</a>
