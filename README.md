@@ -1,8 +1,15 @@
-# React + Vite
+# React CRUD with Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here in this simple project we have created an system for the user to authenticate and saved his token in localStorage
+which can be used for further requests
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React Concepts
+
+A lot of React Concepts are touched in this simple project.
+
+1. Context
+2. Routing
+3. Different Layouts for Authenticated and unAuthenticatd users.
+4. Protecting Routes.
+5. Using context to store token and user info which can be used in entire application without any prop hell.
